@@ -81,6 +81,8 @@ return {
           --c(d), z(p)
           mappings = {
             ["o"] = "open",
+            ["a"] = "add",
+            ["A"] = "add_directory",
             ["x"] = "close_node",
             ["u"] = "navigate_up",
             ["I"] = "toggle_hidden",
@@ -110,7 +112,7 @@ return {
             },
             ["d"] = function() end,
             ["m"] = function() end,
-            ["a"] = function() end,
+            --["a"] = function() end,
             ["z"] = function() end,
           },
         },
